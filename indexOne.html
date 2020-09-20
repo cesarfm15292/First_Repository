@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZTC</title>
+    <link rel="stylesheet" href="designOne.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/839b1cd819.js" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Add jQuery cdn-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+</head>
+<body>
+  <header>
+      <nav class="nav wrapper grey lighten-5">
+          <div>
+            <a href="#" class="brand-logo">
+                <img src="img/logoZTC.png" alt="">
+            </a>
+            <!--<a href="">SORTEA2</a>-->                
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Nuestra Firma</a></li>
+              <li><a href="#">Especialidades</a></li>
+              <li><a href="#">Contactenos</a></li>
+            </ul>
+          </div>
+        </nav>
+  </header>
+
+  <div id="slider"> 
+    <section class="slide" id="home">
+        <div class="carousel carousel-slider">       
+          <a class="carousel-item" href="#one!"><img src="img/5.jpg"></a>
+          <a class="carousel-item" href="#two!"><img src="img/8.png"></a>
+          <a class="carousel-item" href="#three!"><img src="img/9.jpg"></a>
+        </div>
+    </section>
+
+    <section class="slide" id="about">
+    </section>
+
+    <section class="slide" id="services">
+    </section>
+
+    <div class="container">
+      <div class="slides">
+        <div class="slide"><img src="img/1.jpg" alt=""></div>
+        <div class="slide"><img src="img/2.jpg" alt=""></div>
+        <div class="slide"><img src="img/3.jpg" alt=""></div>
+      </div>  
+    </div>
+    <div class="slide-control">
+      <div class="prev-btn">
+        <i class="fas fa-angle-left"></i>
+      </div>
+      <div class="next-btn">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="container">
+    <div class="slides">
+      <div class="slide"><img src="img/1.jpg" alt=""></div>
+      <div class="slide"><img src="img/2.jpg" alt=""></div>
+      <div class="slide"><img src="img/3.jpg" alt=""></div>
+    </div>  
+  </div>
+  <div class="slide-control">
+    <div class="prev-btn">
+      <i class="fas fa-angle-left"></i>
+    </div>
+    <div class="next-btn">
+      <i class="fas fa-angle-right"></i>
+    </div>
+  </div>
+      
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');   
+        var instances = M.Carousel.init(elems,{
+          indicators: true,
+          duration: 100
+
+        });
+      });  
+
+    
+
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,168 @@
+#header-area .grid-header{
+    width: 100%;
+    height: auto;
+    background: pink;
+    overflow: hidden;    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);    
+}
+
+.grid-header .header-above{
+    background: #233D58;
+    height: 40px;
+    grid-column: 1/-1;
+
+}
+
+.grid-header .header-above #redes{
+    /*background: yellow;*/
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-left: 1175px;
+    margin-top: 7px;
+}
+
+.grid-header .header-above #redes a{
+    margin: 0px 5px;
+    /*background: green;*/
+    color: white;
+
+
+    
+}
+.grid-header .header-main{
+    background: white;
+    grid-column: 1/-1;
+    height: 250px;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.grid-header .header-main h2{
+    /*background: black;*/
+    width: 500px;
+    height: 50px;
+    margin-left: 100px;
+
+}
+
+.grid-header .header-main figure{
+    /*background: red;*/
+    width: 550px;
+    height: 240px;
+    margin:  0px 0px 0px 150px;    
+}
+
+.grid-header .header-main figure img{
+    width: 550px;
+    height: 240px;
+    /*background: black;*/
+}
+
+
+/*.grid-header .header-main2{
+    background: orange;
+    grid-column: 1/-1;
+    height: 250px;
+}
+
+.grid-header .header-main2 figure{
+
+    background: black;
+    height: 230px;
+    margin: 10px 10px;
+}*/
+
+.grid-header .nav-below{
+    background: #233D58;
+    grid-column: 4/10;
+    height: 70px;
+    margin-top: -35px;
+    opacity: 0.8;
+}
+
+.grid-header .nav-below ul li {
+    list-style: none;
+    display: inline-block;
+    background: orange;
+
+    
+}
+
+.grid-header .nav-below ul{
+    background: red;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#main .container-home{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#main .container-about{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);      
+}
+
+#main .container-service{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);    
+}
+
+#main .container-contact{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);    
+}
+
+/*.header-area .grid-header{
+    width: 100%;
+    height: 500px;
+    background: pink;
+    display: grid;
+    grid-template-rows: 40px 400px 80px;
+
+
+}
+
+header .header-above{
+    background: #4a148c;
+}
+
+header .header-main{
+    background: yellow;
+}
+
+header .header-below{
+    background: #233D58;
+    position: static;
+}
+
+/*.main-area{
+    background: black;
+    position: relative;
+    display: grid;
+    grid-template:
+        "slide" 400px
+        "info"  250px
+        "socio" 80px /
+        100%;;
+}*/

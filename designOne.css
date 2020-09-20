@@ -1,0 +1,154 @@
+/*.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(100px, auto);
+    gap: 1em;
+    /*justify-content: start, center, end, stretch; HORIZONTAL*/
+    /*align-items: start, center, end, stretch; VERTICAL*/    
+/*}*/
+/*.element1{
+    align-self: stretch;
+    justify-self: stretch;
+    grid-column: 1/4;  // SEGUN CSS GRID LINES 1,2,3,4
+    grid-row: 1/3;
+    
+
+}*/    
+/*.grid > div{
+    background: #ecf0f1;
+    padding: 1em;   
+}
+.grid > div:hover{
+    border: 1px solid #f1c40f;
+}*/
+
+body{
+    background: #233D58
+}
+
+header nav{
+    height: 80px;
+    background: blue;
+}
+
+header nav a.brand-logo{
+    margin-top: 3px;
+    margin-left: 70px;
+}
+header nav a img{
+    height: 60px;
+    width:  150px;
+
+}
+header nav ul{
+    margin-right: 150px;
+}
+header nav ul li a{
+    color: #233D58;
+    
+}
+
+#slider {
+    width: 100%;
+    height: 1500px;
+    background: brown;
+}
+
+#slider section.slide{
+    width: 100%;
+
+}
+
+#slider #home { 
+    background: white;
+}
+
+#slider #home div.container{
+    background: red;
+    width: 100%;
+
+
+}
+
+#slider #home div.carousel a img{
+    background: blue;
+    width: 100%;
+}
+
+#slider #home div.carousel ul.indicators{
+    margin-bottom: -15px;
+}
+
+#slider #about{
+    background: lightblue;
+}
+
+#slider #services div.slider ul.indicators{
+    margin-bottom: 40px;
+    z-index: 999;
+}
+
+#slider #services div.slider ul.indicators{
+   
+}
+
+
+
+
+
+
+/* Slider con JS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container{
+    margin: 0 auto;
+    width: 60%;
+    height: 400px;
+    position: relative;
+}
+
+.container .slides {
+    display: flex;
+    height: 100%;
+}
+
+.slide{
+    min-width: 100%;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.slide-control{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#prev-btn,
+#next-btn{
+    cursor: pointer;
+    background: transparent;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+#prev-btn:focus,
+#next-btn:focus{
+    outline: none;
+}
+
+
