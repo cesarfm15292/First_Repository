@@ -8,29 +8,31 @@
 }
 
 .grid-header .header-above{
-    background: #233D58;
+    background: yellowgreen;/*#233D58*/
     height: 40px;
-    grid-column: 1/-1;
+    grid-column: 4/10;
 
 }
 
 .grid-header .header-above #redes{
-    /*background: yellow;*/
+    background: yellow;
     width: 150px;
-    height: 30px;
-    text-align: center;
-    margin-left: 1175px;
-    margin-top: 7px;
-}
+    height: 40px;
 
-.grid-header .header-above #redes a{
-    margin: 0px 5px;
-    /*background: green;*/
-    color: white;
-
+    left: -100px;
 
     
 }
+
+.grid-header .header-above #redes i{
+    margin-top: 5px;
+    background: green;
+    color: white;
+    font-size: 1.2em;  
+}
+
+
+
 .grid-header .header-main{
     background: white;
     grid-column: 1/-1;
@@ -76,8 +78,8 @@
     margin: 10px 10px;
 }*/
 
-.grid-header .nav-below{
-    background: #233D58;
+.grid-header nav{
+    background: red;
     grid-column: 4/10;
     height: 70px;
     margin-top: -35px;
